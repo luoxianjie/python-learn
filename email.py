@@ -13,7 +13,6 @@ message['To'] =  Header("test", 'utf-8')
 message['Subject'] = Header('Python SMTP Test', 'utf-8')
 
 try:
-    print('123');
     smtpObj = smtplib.SMTP_SSL('smtp.qq.com', 465)
     smtpObj.login('2860899420@qq.com','pgygvackxgzideih')
     smtpObj.sendmail(sender, receivers, message.as_string())
