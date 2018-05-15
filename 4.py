@@ -1,5 +1,7 @@
 #! -*- coding: utf-8 -*-
 
+# python 读取数据库并写入excel
+
 import sys
 import json
 
