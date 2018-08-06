@@ -15,4 +15,5 @@ cursor.execute(sql)
 
 result = cursor.fetchall()
 
-print(result)
+for x in (range(len(result))):
+    print(result[x]['nackname'])
